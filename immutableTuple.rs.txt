@@ -1,0 +1,6 @@
+fn main() {
+    let tup: (i32, bool, char) = (8, true, 's');//here tup is a compound variable. 2 types of compound variables are there - tuple and array
+    println!("{}" , tup.0);
+    println!("{}" , tup.1);
+    println!("{}" , tup.2);
+}
