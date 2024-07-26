@@ -1,0 +1,6 @@
+fn main() {
+    let x = (i32::MAX as i64) + 1;
+    let y = 10i32;
+    let z = x as i32/y; //here value overflow takes place
+    println!("the result is {}", z);
+}

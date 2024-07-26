@@ -1,0 +1,10 @@
+fn main() {
+    let food = "ricebowl";
+    if food == "cookie"{
+        println!("the food is good");
+    }
+    else {
+        println!("food is not good");
+    }
+    
+}

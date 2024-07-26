@@ -1,0 +1,4 @@
+fn main() {
+    let condition = (2 as f32) <= 2.2;
+    println!("The condition is {}", condition);
+}
