@@ -1,0 +1,6 @@
+fn main() {
+    let x = 32;
+    println! ("x is {}", x);
+    let x = "Hello World";
+    println! ("x is {}", x);
+}
