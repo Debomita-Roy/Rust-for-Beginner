@@ -1,0 +1,13 @@
+fn main() {
+    let mut x = 10;
+    println!("The value of x is {}", x);
+   
+    {
+        x = 20;
+        println!("The value of x is {}", x);
+    }
+    
+    let x = x+1;
+     println!("The value of x is {}", x);//variable overshadowing not happening, as here the result is 21 (20+1) , not expected because x=20 is mentioned in the interior scope of main()
+    
+}
