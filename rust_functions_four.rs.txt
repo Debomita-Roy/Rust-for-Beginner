@@ -1,0 +1,15 @@
+fn main() {
+    let result = add_numbers(12,3);
+    println!("the sum is {}", result);
+   
+    
+}
+fn add_numbers (x: i32, y: i32) -> i32 {
+    let result = x+y;
+    if result > 10
+    {
+        return result - 10;
+    }
+    result
+    
+}
